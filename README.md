@@ -10,7 +10,11 @@ Cyclic Cellular Automata
 
 Imagine a two-dimensional lattice composed of cells, and each cell of the lattice is painted one of κ colors. The colors are arranged along a color wheel, and the colors advance (k to k + 1 mod κ) by contact with at least a threshold θ number of successor colors in a prescribed local neighborhood (typically either a von Neumann neighborhood or a Moore neighborhood) of some extent ρ. Discrete-time parallel systems of this sort are called cyclic cellular automata (CCA). Initialized in random configurations, these rules exhibit complex self-organization, typically characterized by nucleation of locally periodic spirals and a variety of equilibria that display large-scale stochastic wave fronts. CCA emulate the behavior of a wide range of complex, coherent, periodic wave phenomena in space.
 
+[![Watch the video](https://i.imgur.com/xY6Ftro.png)](https://youtu.be/So2u-qSbzIE)
+
 The Greenberg-Hastings (GH) automaton is a simpler version of CCA. Under the GH rules, only one color advances by contact with at least a threshold θ number of successor colors in its local neighborhood ρ, and all other colors advance automatically. The simplest GH model is the automaton with three states, or colors (κ=3): resting, excited, refractory. If a resting cell is in contact with an excited cell, it will become excited on the next time-step; otherwise, it will remain at rest. Once excited, it proceeds automatically through the refractory states until it returns again to a state of rest.
+
+[![Watch the video](https://i.imgur.com/DhCQnQE.png)](https://youtu.be/ZmxPKM2RhgU)
 
 For more information, or to experiment with an interactive version in javascript, [click here](https://nathanielwroblewski.github.io/greenberg-hastings/).
 
